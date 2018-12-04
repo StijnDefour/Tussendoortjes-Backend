@@ -1,0 +1,11 @@
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.deps.json
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.runtimeconfig.json
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.runtimeconfig.dev.json
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.dll
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\bin\Debug\netcoreapp2.0\TodoApi.pdb
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.csprojAssemblyReference.cache
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.csproj.CoreCompileInputs.cache
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.AssemblyInfoInputs.cache
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.AssemblyInfo.cs
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.dll
+D:\Users\defou\Documents\Pieter-Website\dotNetTest\TodoApi\TodoApi\obj\Debug\netcoreapp2.0\TodoApi.pdb
