@@ -29,10 +29,26 @@ namespace ApiApplication.Controllers
         }
 
         [HttpGet]
-        [Route("api/user/getAll/{id}")]
+        [Route("api/user/getByID/{id}")]
         public Task<User> getUserByID(int id)
         {
             var user = _context.Users.FindAsync(id);
+
+            if (user == null)
+            {
+                return null;
+            }
+
+            return user;
+        }
+
+        [HttpGet]
+        [Route("api/user/getUserByLogin/{email}/{password}")]
+        public User getUserByLogin(String email, String password)
+        {
+            var user = _userRepo.GetAll()
+                            .Where(u => u.Email==email)
+                            .Where(u => u.Password == password).First();
 
             if (user == null)
             {
