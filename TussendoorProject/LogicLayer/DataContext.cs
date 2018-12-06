@@ -11,7 +11,7 @@ namespace LogicLayer
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server = RUBENSEGERS13BC\\SQLEXPRESS; Database = tussendoor; Trusted_Connection = True;");
+            optionsBuilder.UseSqlServer("Server = MSI; Database = tussendoor; Trusted_Connection = True;");
         }
     }
 }

@@ -1,0 +1,5 @@
+pas dingen aan in de classes. vervolgens:
+
+----------- IN PACKAGE MANAGER CONSOLE ------------
+add-migration [geef hier een naam]
+update-database
