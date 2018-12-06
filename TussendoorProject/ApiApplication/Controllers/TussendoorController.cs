@@ -5,15 +5,19 @@ using System.Threading.Tasks;
 using LogicLayer.Entities;
 using LogicLayer.Repos.UserRepository;
 using Microsoft.AspNetCore.Mvc;
+using LogicLayer;
 
 namespace ApiApplication.Controllers
 {
     public class TussendoorController : Controller
     {
+        private readonly DataContext _context;
+
         private IUserRepo _userRepo;
 
-        public TussendoorController()
+        public TussendoorController(DataContext context)
         {
+            _context = context;
             _userRepo = new UserRepo();
         }
 
@@ -22,6 +26,20 @@ namespace ApiApplication.Controllers
         public IEnumerable<User> getAllUsers()
         {
             return _userRepo.GetAll();
+        }
+
+        [HttpGet]
+        [Route("api/user/getAll/{id}")]
+        public Task<User> getUserByID(int id)
+        {
+            var user = _context.Users.FindAsync(id);
+
+            if (user == null)
+            {
+                return null;
+            }
+
+            return user;
         }
     }
 }
