@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiApplication", "ApiApplication\ApiApplication.csproj", "{4446AFC6-1C54-4118-9998-AF24723E618D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicLayer", "LogicLayer\LogicLayer.csproj", "{AFD36A15-57F9-4CF4-A302-A70952DAC3B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4446AFC6-1C54-4118-9998-AF24723E618D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4446AFC6-1C54-4118-9998-AF24723E618D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4446AFC6-1C54-4118-9998-AF24723E618D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4446AFC6-1C54-4118-9998-AF24723E618D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD36A15-57F9-4CF4-A302-A70952DAC3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD36A15-57F9-4CF4-A302-A70952DAC3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD36A15-57F9-4CF4-A302-A70952DAC3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD36A15-57F9-4CF4-A302-A70952DAC3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E9AD437-235B-4FFF-B93E-1B44BDD98EAF}
+	EndGlobalSection
+EndGlobal
