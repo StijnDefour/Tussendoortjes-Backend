@@ -30,6 +30,13 @@ namespace VriendenApplication
             {
                 configuration.RootPath = "ClientApp/build";
             });
+
+            //allow CORS
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin",
+                    builder => builder.WithOrigins("http://localhost:4200"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +55,9 @@ namespace VriendenApplication
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
+
+            //allow CORS
+            app.UseCors("AllowSpecificOrigin");
 
             app.UseMvc(routes =>
             {

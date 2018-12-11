@@ -43,18 +43,24 @@ namespace ApiApplication.Controllers
         }
 
         [HttpGet]
-        [Route("api/user/getUserByLogin/{email}/{password}")]
+        [Route("api/user/getUserByLogin")]
         public User getUserByLogin(String email, String password)
         {
-            var user = _userRepo.GetAll()
-                            .Where(u => u.Email==email)
-                            .Where(u => u.Password == password).First();
+            User user  = null;
+            try
+            {
+                user = _userRepo.GetAll()
+                                .Where(u => u.Email == email)
+                                .Where(u => u.Password == password).First();
+            }
+            catch (Exception e) {}
 
             if (user == null)
             {
                 return null;
             }
 
+            user.Password = "";
             return user;
         }
     }
